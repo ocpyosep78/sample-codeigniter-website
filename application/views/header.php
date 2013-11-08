@@ -14,6 +14,7 @@
 			<li class="<?= active_link('home', $this->router->fetch_class())?>"><a href="<?= site_url('home')?>">Home</a></li>
 			<li class="<?= active_link('about', $this->router->fetch_class())?>"><a href="<?= site_url('about')?>">About</a></li>
 			<li class="<?= active_link('contact', $this->router->fetch_class())?>"><a href="<?= site_url('contact')?>">Contact</a></li>
+			<li class="<?= active_link('messages', $this->router->fetch_class())?>"><a href="<?= site_url('messages')?>">Messages</a></li>
 		</ul></nav>
 	</header>
 		

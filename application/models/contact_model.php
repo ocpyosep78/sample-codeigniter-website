@@ -19,8 +19,10 @@ class Contact_model extends CI_Model {
 	function create_message($fields)
 	{
 		$this->db->insert('messages', $fields);
+		
 		return $this->db->insert_id();
 	}
+	
 }
 
 /* End of file contact_model.php */
